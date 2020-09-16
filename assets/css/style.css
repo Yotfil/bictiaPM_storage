@@ -68,8 +68,14 @@ body {
 .dark {
 	background-color: #333;
 }
+.pink {
+	background-color: rgb(248, 177, 177);
+}
+.cian {
+	background-color: rgb(148, 243, 255);
+}
 
-.container.dark .main {
+.container.dark {
 	background-color: #333;
 }
 .container.dark p,
@@ -80,4 +86,30 @@ body {
 .container.dark .header,
 .container.dark .footer {
 	box-shadow: 0 0 8px gray;
+}
+
+.container.pink {
+	background-color: rgb(248, 177, 177);
+}
+.container.pink p,
+.container.pink h1,
+.container.pink a {
+	color: #790909;
+}
+.container.pink .header,
+.container.pink .footer {
+	box-shadow: 0 0 8px rgb(78, 43, 43);
+}
+
+.container.cian {
+	background-color: rgb(148, 243, 255);
+}
+.container.cian p,
+.container.cian h1,
+.container.cian a {
+	color: #094c79;
+}
+.container.cian .header,
+.container.cian .footer {
+	box-shadow: 0 0 8px rgb(43, 67, 78);
 }
